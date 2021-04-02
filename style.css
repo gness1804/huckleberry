@@ -9,4 +9,32 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  padding: 5rem 1rem 3rem;
+}
+
+.max-width-wrapper {
+  max-width: 30rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk p strong {
+  color: #009969;
+}
+
+main {
+  background: #999;
+  border-top: 4px solid #666;
+}
+
+.card {
+  background: #fff;
+  border-bottom: 4px solid #666;
+}
