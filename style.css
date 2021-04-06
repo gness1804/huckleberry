@@ -39,13 +39,13 @@ h1, h2, h3 {
 
 main {
   background: #999;
-  border-top: 4px solid #666;
+  border-top: 8px solid #666;
   padding: 5rem 0;
 }
 
 .card {
   background: #fff;
-  border-bottom: 4px solid #666;
+  border-bottom: 8px solid #666;
   width: 100%;
   padding: 1.25rem;
   margin: -1.25rem;
@@ -59,7 +59,7 @@ main {
   background: #ffc027;
   width: -moz-fit-content;
   width: fit-content;
-  border-bottom: 4px solid #CC9902;
+  border-bottom: 8px solid #CC9902;
   margin-left: -32px;
   margin-top: -0.75rem;
   padding: 16px 32px;
