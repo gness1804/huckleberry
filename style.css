@@ -9,8 +9,9 @@ body {
   padding: 0;
 }
 
-header {
-  padding: 5rem 1rem 3rem;
+/* normalize */
+h1, h2, h3 {
+  margin: 0;
 }
 
 .max-width-wrapper {
@@ -21,6 +22,11 @@ header {
 
 .title {
   font-size: 1.5rem;
+}
+
+.intro-chunk {
+  max-width: 30rem;
+  padding: 5rem 0;
 }
 
 .intro-chunk p {
@@ -45,7 +51,7 @@ main {
   margin: -1.25rem;
 }
 
-.card p:nth-child(3) {
+.card p:last-child {
   margin-bottom: 0;
 }
 
@@ -53,11 +59,10 @@ main {
   background: #ffc027;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1rem;
-  padding-left: 2rem;
-  margin-left: -2rem;
-  margin-top: 0;
   border-bottom: 4px solid #CC9902;
+  margin-left: -32px;
+  margin-top: -0.75rem;
+  padding: 16px 32px;
 }
 
 footer {
