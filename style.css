@@ -37,4 +37,12 @@ main {
 .card {
   background: #fff;
   border-bottom: 4px solid #666;
+  width: 100%;
+  padding: 0.25rem 1rem 1rem;
+}
+
+.indented-heading {
+  background: #ffc027;
+  width: -moz-fit-content;
+  width: fit-content;
 }
