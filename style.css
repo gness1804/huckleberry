@@ -32,6 +32,7 @@ header {
 main {
   background: #999;
   border-top: 4px solid #666;
+  padding: 5rem 0;
 }
 
 .card {
@@ -54,4 +55,8 @@ main {
   margin-left: -2rem;
   margin-top: 0;
   border-bottom: 4px solid #CC9902;
+}
+
+footer {
+  padding: 2rem 1rem;
 }
